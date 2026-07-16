@@ -1,7 +1,7 @@
 import { expect, test } from "@jest/globals";
 
-import { XmlDocument, XsltStylesheet } from "libxslt-wasm";
-import { registerModule } from "libxslt-wasm/exslt";
+import { XmlDocument, XsltStylesheet } from "@pretextbook/libxslt-wasm";
+import { registerModule } from "@pretextbook/libxslt-wasm/exslt";
 
 // Temporary test to verify that the library is working while the test suite
 // is being developed. This test will be removed once the test suite is
