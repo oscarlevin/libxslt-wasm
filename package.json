@@ -1,6 +1,6 @@
 {
-  "name": "libxslt-wasm",
-  "version": "0.0.14",
+  "name": "@pretextbook/libxslt-wasm",
+  "version": "0.1.0",
   "type": "module",
   "description": "JavaScript bindings for libxslt compiled to WebAssembly",
   "scripts": {
@@ -26,11 +26,14 @@
     "exslt",
     "xsl"
   ],
-  "homepage": "https://github.com/jeremy-code/libxslt-wasm#readme",
-  "bugs": "https://github.com/jeremy-code/libxslt-wasm/issues",
+  "homepage": "https://github.com/oscarlevin/libxslt-wasm#readme",
+  "bugs": "https://github.com/oscarlevin/libxslt-wasm/issues",
   "license": "MIT",
   "author": "Jeremy Nguyen <nguyen.jeremyt@gmail.com> (https://jeremy.ng)",
-  "repository": "github:jeremy-code/libxslt-wasm",
+  "repository": "github:oscarlevin/libxslt-wasm",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist"
   ],
